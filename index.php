@@ -25,6 +25,7 @@
     	<option>(017)兆豐國際商業銀行</option>
     	<option>(048)王道商業銀行</option>
     	<option>(103)臺灣新光商業銀行</option>
+	<option>(396)街口電子支付股份有限公司</option>
     	<option>(700)中華郵政股份有限公司</option>
     	<option>(812)台新國際商業銀行</option>
     	<option>(822)中國信託商業銀行</option>
