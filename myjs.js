@@ -1,8 +1,8 @@
-let bank_savings = [0, 0, 0, 0, 0, 0, 0,0];
+let bank_savings = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 function Calc_Sum_Saving()
 {
     let sum_saving = 0;
-    for (let i = 0; i < 8; i++)
+    for (let i = 0; i < 10; i++)
     {
         sum_saving += parseInt(bank_savings[i]);
     }
@@ -53,7 +53,7 @@ window.addEventListener("load", (event) => {
 	document.getElementById("sum_saving").innerHTML = Calc_Sum_Saving();
 });
 function My_LocalStorage(){
-	for (let i = 0; i < 8; i++)
+	for (let i = 0; i < 10; i++)
     	{
         	localStorage.setItem(i.toString(), bank_savings[i]);
     	}

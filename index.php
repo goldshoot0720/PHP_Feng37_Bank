@@ -21,14 +21,16 @@
       </h3>
       <p>
       <select id="financial_institution" onchange="Select_Onchange()">
-    	<option>(013)國泰世華商業銀行</option>
-    	<option>(017)兆豐國際商業銀行</option>
-    	<option>(048)王道商業銀行</option>
-    	<option>(103)臺灣新光商業銀行</option>
-	<option>(396)街口電子支付股份有限公司</option>
-    	<option>(700)中華郵政股份有限公司</option>
-    	<option>(812)台新國際商業銀行</option>
-    	<option>(822)中國信託商業銀行</option>
+	<option>(006)合作金庫</option>
+    	<option>(013)國泰世華</option>
+    	<option>(017)兆豐銀行</option>
+    	<option>(048)王道銀行</option>
+    	<option>(103)新光銀行</option>
+	<option>(396)街口支付</option>
+    	<option>(700)中華郵政</option>
+	<option>(808)玉山銀行</option>
+    	<option>(812)台新銀行</option>
+    	<option>(822)中國信託</option>
 	</select>
      </p>	
     </div>
@@ -50,11 +52,13 @@
     </div>
     </p>
     <div class="col-sm-12">
-      <h3>      
-      <p>
+      <h3>
 	<button type="button" class="btn btn-primary" data-bs-toggle="tooltip" onclick="Button_Click1()">修改</button>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<button type="button" id="button2" class="btn btn-primary" data-bs-toggle="tooltip">彩蛋</button>
+	<button type="button" id="button2" class="btn btn-primary" data-bs-toggle="tooltip">彩蛋</button>  
+      </h3> 
+      <p>
+	(000)中央銀行(鋒兄分行)存款金額：∞
      </p>
     </div>
   </div>
