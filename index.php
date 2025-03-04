@@ -26,19 +26,19 @@
       </h3>
       <p>
       <select id="financial_institution" onchange="Select_Onchange()">
-	<optgroup label="泛公股 ">
+	<optgroup label="泛公股：">
 	<option>(006)合作金庫(5880)</option>
-    	<option>(017)兆豐銀行(2886.)</option>
-	<optgroup label="民營銀行 ">
+    	<option>(017)兆豐銀行(2886)</option>
+	<optgroup label="民營銀行：">
     	<option>(013)國泰世華(2882)</option>
     	<option>(048)王道銀行(2897)</option>
     	<option>(103)新光銀行(2888)</option>
 	<option>(808)玉山銀行(2884)</option>
     	<option>(812)台新銀行(2887)</option>
     	<option>(822)中國信託(2891)</option>
-	<optgroup label="郵局">
+	<optgroup label="郵局：">
     	<option>(700)中華郵政</option>
-	<optgroup label="電子支付">
+	<optgroup label="電子支付：">
 	<option>(396)街口支付(6038)</option>
 	</select>
      </p>	
