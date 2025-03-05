@@ -1,4 +1,4 @@
-localStorage.clear();
+// localStorage.clear();
 let bank_savings = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 function Calc_Sum_Saving()
 {
