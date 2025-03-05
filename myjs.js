@@ -1,3 +1,4 @@
+localStorage.clear();
 let bank_savings = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 function Calc_Sum_Saving()
 {
@@ -27,7 +28,7 @@ My_LocalStorage();
 
 // 轉換 localStorage 為關聯陣列
 let temp_bank_savings = {};
-for (let i = 0; i < 8; i++) {
+for (let i = 0; i < 10; i++) {
     temp_bank_savings[i.toString()] = localStorage.getItem(i.toString()) || "0";
 }
 
