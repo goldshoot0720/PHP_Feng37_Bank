@@ -8,9 +8,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body style="text-align:center;">
-<div class="container-fluid p-3 bg-primary text-white text-center">
-  <h1>PHP_Feng37_Bank</h1>
-  <p>PHP_鋒兄三七_銀行 By
+<div class="container-fluid p-1 bg-primary text-white text-center">
+  <h1>PHP_鋒兄三七_銀行</h1>
+  <p>By
   	<?php
 		date_default_timezone_set("Asia/Taipei");
 		echo date("F d Y H:i:s",filemtime("bank_savings.txt"));
@@ -69,6 +69,7 @@
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<button type="button" id="button2" class="btn btn-primary" data-bs-toggle="tooltip">彩蛋</button>  
      </p>
+	<img src="cat20240917_183326-removebg.png" alt="喵布布" width="231" height="173"> 
     </div>
   </div>
 </div>
