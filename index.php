@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body style="text-align:center;">
 <div class="container-fluid p-1 bg-primary text-white text-center">
@@ -69,7 +70,6 @@
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<button type="button" id="button2" class="btn btn-primary" data-bs-toggle="tooltip">彩蛋</button>  
      </p>
-	<img src="cat20240917_183326-removebg.png" alt="喵布布" width="231" height="173"> 
     </div>
   </div>
 </div>

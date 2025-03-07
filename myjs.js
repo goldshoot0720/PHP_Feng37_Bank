@@ -94,8 +94,20 @@ function Button_Click2() {
     } else if (sumSaving < 0) {
         howIRich = "不要負債";
     }
+	/*
     alert(
         howIRich +
             "\n㊣\n委任第五職等\n簡任第十二職等\n第12屆臺北市長\n第23任總統\n中央銀行鋒兄分行"
     );
+	*/
+	Swal.fire({
+  title: "㊣"+howIRich+"㊣",
+  html: "委任第五職等<br>簡任第十二職等<br>第12屆臺北市長<br>第23任總統<br>中央銀行鋒兄分行",
+  icon: "success",
+  imageUrl: "cat20240917_183326-removebg.png",
+  imageWeight: 231,
+  imageHeight: 173,
+  imageAlt: "A cat named Miabubu."
+	});
+
 }
