@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>PHP_Feng37_Bank</title>
+<title>PHP_鋒兄三七_銀行</title>
 <script type="text/javascript" src="myjs.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -26,22 +26,18 @@
       	<label for="financial_institution">金融機構：</label>
       </h3>
       <p>
-      <select id="financial_institution" onchange="Select_Onchange()">
-	<optgroup label="泛公股：">
-	<option>(006)合作金庫(5880)</option>
-    	<option>(017)兆豐銀行(2886)</option>
-	<optgroup label="民營銀行：">
-    	<option>(013)國泰世華(2882)</option>
-    	<option>(048)王道銀行(2897)</option>
-    	<option>(103)新光銀行(2888)</option>
-	<option>(808)玉山銀行(2884)</option>
-    	<option>(812)台新銀行(2887)</option>
-    	<option>(822)中國信託(2891)</option>
-	<optgroup label="郵局：">
-    	<option>(700)中華郵政</option>
-	<optgroup label="電子支付：">
-	<option>(396)街口支付(6038)</option>
-	</select>
+        <select id="financial_institution" onchange="Select_Onchange()">
+            <option>(006)合作金庫(5880)</option>
+            <option>(012)台北富邦(2881)</option>
+            <option>(013)國泰世華(2882)</option>
+            <option>(017)兆豐銀行(2886)</option>
+            <option>(048)王道銀行(2897)</option>
+            <option>(103)新光銀行(2888)</option>
+            <option>(700)中華郵政</option>
+            <option>(808)玉山銀行(2884)</option>
+            <option>(812)台新銀行(2887)</option>
+            <option>(822)中國信託(2891)</option>
+	    </select>
      </p>	
     </div>
     <div class="col-sm-12">
