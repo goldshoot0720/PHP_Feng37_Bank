@@ -17,15 +17,12 @@ $response = [
     "received_data" => $inputData
 ];
 
-// 回傳 JSON 格式的回應
-// echo json_encode($response);
-
 $myfile = fopen("bank_savings.txt", "w") or die("Unable to open file!");
 
-	for ($i = 0; $i < 10; $i++)
-    	{
-        	fwrite($myfile, $response["received_data"][$i]);
-		fwrite($myfile, "\n");
-    	}
-	fclose($myfile);
+for ($i = 0; $i < 10; $i++) {
+    fwrite($myfile, $response["received_data"][$i]);
+    fwrite($myfile, "\n");
+}
+
+fclose($myfile);
 ?>
